@@ -3,7 +3,9 @@ sudo pacman -Syu
 sudo pacman -S htop bashtop neofetch vlc ffmpeg rust  zsh packagekit-qt5 latte-dock 
 echo -e "installing i3 and required components"
 sleep 2s
-sudo pacman -S i3-gaps gnome-disk-utility i3lock i3blocks gnome-screenshot rofi alacritty nautilus gedit simplescreenrecorder
+sudo pacman -S i3-gaps gnome-disk-utility i3lock i3blocks gnome-screenshot rofi alacritty nautilus gedit simplescreenrecorder 
+echo -e "installing required fonts for arch linux"
+sudo pacman -S ttf-caladea ttf-carlito ttf-dejavu ttf-liberation noto-fonts ttf-opensans otf-overpass ttf-roboto tex-gyre-fonts ttf-ubuntu-font-family ttf-dejavu ttf-liberation noto-fonts 
 echo -e "getting some requried package from AUR"
 yay -S polybar cava picom-jonaburg-git vim-plug spicetify-cli pipes.sh bonsai.sh-git ufetch-git 
 echo -e "setting up zsh"
