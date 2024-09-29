@@ -19,5 +19,7 @@ echo -e "installing some misc stuff"
 sleep 2s
 sudo pacman -S jq feh clash
 cd $HOME/Pictures && curl -LO https://raw.githubusercontent.com/thefallnn/Nord-Wallpapers/master/wallpapers/10.png
-zenity --info --text="installation of  theFallnn has been complete"
+zenity --info --text="installation of the essential packages has been complete"
+#UUID=7CCA4DE4CA4D9AF2 /run/media/sourav/vault ntfs defaults,noatime,x-systemd.automount,uid=1000,gid=1000,umask=007 0 2
+
 
