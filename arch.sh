@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo pacman -Syu 
-sudo pacman -S htop bashtop neofetch vlc ffmpeg rust  zsh packagekit-qt5 latte-dock gimp zenity gvfs-mtp
+sudo pacman -S htop bashtop neofetch vlc ffmpeg rust  zsh packagekit-qt5 latte-dock gimp zenity gvfs-mtp nvidia nvidia-utils nvidia-settings linux-headers xorg-xrandr 
 echo -e "installing i3 and required components"
 sleep 2s
 sudo pacman -S i3-gaps gnome-disk-utility i3lock i3blocks gnome-screenshot rofi alacritty nautilus gedit simplescreenrecorder python-pynvim
